@@ -1,0 +1,28 @@
+{
+  "name": "solid-start-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "solid-app-router": "^0.3.1",
+    "solid-js": "^1.4.0",
+    "solid-meta": "^0.27.3",
+    "solid-start": "next",
+    "solid-start-node": "next",
+    "typescript": "^4.6.2",
+    "vite": "^2.7.13"
+  },
+  "stackblitz": {
+    "startCommand": "npm run dev"
+  },
+  "dependencies": {
+    "zod": "^3.17.3"
+  }
+}
